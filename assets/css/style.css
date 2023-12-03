@@ -1,0 +1,117 @@
+/* =============general styles=============== */
+*{
+    margin: 0;
+    padding: 0;
+    --theme-primary:#0067b8;
+    --theme-gray:#f2f2f2;
+    --theme-black:#000000;
+    --theme-white:#ffffff;
+}
+.container{
+    width: 1400px;
+    margin: 0 auto;
+}
+.sec-space{
+    padding: 60px 0;
+}
+
+
+
+
+
+
+/* =============Header styles=============== */
+.primary-navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+}
+.primary-navbar ul{
+    list-style-type: none;
+    display: flex;
+}
+.primary-navbar ul li a{
+    padding: 8px 16px;
+    display: inline-block;
+    text-decoration: none;
+    color: var(--theme-black);
+}
+.primary-navbar ul li a:hover{
+    text-decoration: underline;
+}
+.primary-navbar ul li:first-child a{
+    padding-left: 0;
+}
+.primary-navbar ul li:last-child a{
+    padding-right: 0;
+}
+
+
+.main-hero-wrapper{
+    position: relative;
+}
+.main-hero-wrapper img{
+    width: 100%;
+}
+.main-hero-wrapper .hero-overlay{
+    position: absolute;
+    width: 500px;
+    top: 50%;
+    left: 10%;
+    transform: translateY(-50%);
+}
+.main-hero-wrapper .hero-overlay h2, .main-hero-wrapper .hero-overlay p{
+    margin-bottom: 16px;
+}
+.main-hero-wrapper .hero-overlay a:nth-child(3){
+    background-color: var(--theme-primary);
+    color: var(--theme-white);
+    text-decoration: none;
+    padding: 8px 16px;
+    display: inline-block;
+    margin-right: 16px;
+}
+.main-hero-wrapper .hero-overlay a:nth-child(4){
+    color: var(--theme-black);
+    text-decoration: none;
+}
+.ms-services-inner{
+    display: flex;
+}
+.card{
+    width: 25%;
+    margin: 16px;
+}
+.card:first-child{
+    margin-left: 0;
+}
+.card:last-child{
+    margin-right: 0;
+}
+.card .body{
+    padding: 16px 0;
+}
+.card .body h3, .card .body p{
+    margin-bottom: 16px;
+}
+.card img{
+    width: 100%;
+}
+
+.card .body a{
+    color: var(--theme-primary);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+
+
+
+
+/* =============main area styles=============== */
+
+
+
+
+
+/* =============Footer styles=============== */
